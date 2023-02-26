@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai&family=Harmattan&family=Markazi+Text:wght@400;500&display=swap");
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Harmattan", sans-serif;
+    
+}
+
+.contactt{
+    background-color: #faddc2;
+    width: 90%;
+     
+     margin: 3rem auto;
+     padding: 2rem 0;
+     text-align: center;
+   
+
+   
+   }
+
+   h2{
+    color:#433831;
+    font-size: 2rem;
+   }
+   
+   form{
+     display: flex;
+     flex-direction: column;
+     padding: 5rem 0;
+     width: 100%;
+     text-align: center;
+   }
+   
+   form .btnnn{
+     color: #433831;
+     width: 100px;
+     align-self: center;
+     
+   
+   }
+   
+   label,
+   input,
+   textarea
+   .btnnn{
+     font-family: inherit;
+     font-size: 1.6rem;
+     cursor: pointer;
+     text-decoration-color: blue;
+     color: #433831;
+   }
+   
+   
+   input,
+   textarea{
+     width: 80%;
+     border-radius: 1rem;
+     border: none;
+     padding: 0.75rem 2rem;
+     margin: 0 auto;
+     color:#433831;
+   
+   }
+   label,
+   input,
+   textarea{
+     margin-bottom: 1.5rem;
+     color:#433831;
+   
+   }
+

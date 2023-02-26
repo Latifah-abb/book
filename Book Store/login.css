@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: #8D7676;
+  
+}
+
+.form{
+
+    width: 350px;
+    height: 350px;
+    background-color:#222;
+    position: absolute;
+   align-self: center;
+   right: 500px;
+    border-radius: 10px;
+    padding: 25px;
+  margin: 25px;
+  
+  }
+  
+  
+  .form h2{
+    
+    width: 250px;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #fff;
+    color: #faddc2;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+  }
+  
+  .form input{
+    
+    width: 240;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #faddc2;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+  }
+  
+  .form input:focus{
+    color: #000;
+    font-family: Arial;
+  }
+
+
+  ::placeholder{
+    font-family: Arial;
+    color:#fff;
+  }
+  
+  
+  .bttn{
+    
+    width: 240px;
+    height: 40px;
+    background-color: #faddc2;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+  }
+  
+  .bttn:hover{
+    background: #fff;
+    color: #faddc2;
+    
+  }
+  
+  .bttn a{
+    text-decoration: #fff;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .form .linkk{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+ 
+    padding-top: 20px;
+   
+  }
+  
+  
+  .form .linkk a{
+
+    text-decoration: none;
+    color: #faddc2;
+  }
+  
+  .liw{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color:#fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #faddc2;
+}

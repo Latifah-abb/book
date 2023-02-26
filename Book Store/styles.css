@@ -1,0 +1,457 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai&family=Harmattan&family=Markazi+Text:wght@400;500&display=swap");
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Harmattan", sans-serif;
+    
+}
+
+nav .bars-menu{
+    display: none;
+    color: #4e4949;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    max-width: 1366px;
+    
+    background-color:white;
+    margin: 0 auto;
+    padding:0 rem;
+}
+
+
+.search{
+  align-self: center;
+  width: 300px;
+  float:left;
+  margin-left: 50px;
+}
+
+.srch{
+  font-family: 'Times New Roman';
+  width: 70%;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #faddc2;
+  margin-top: 13px;
+  color: #000;
+  border-left: none;
+  font-size: 16px;
+  float: right ;
+  padding: 10px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.btnn{
+  width: 30%;
+  height: 40px;
+  margin-top: 13px;
+background-color: #faddc2;
+border: 2px solid #faddc2;
+color:white;
+font-size: 15px;
+border-bottom-left-radius: 5px;
+border-bottom-left-radius: 5px;
+transition: 0.2 ease;
+cursor:pointer;
+  
+}
+
+.btnn:hover{
+  color:#000;
+}
+
+.btnn:focus{
+  outline: none;
+
+}
+ .srch:focus{
+  outline: none;
+ }
+
+
+nav .nav-item{
+  display: inline;
+    
+    list-style-type: none;
+  
+}
+
+nav .nav-item.nav-item{
+padding: 0 1rem;
+}
+
+
+nav .nav-link{
+    text-decoration: none;
+    color: #4e4e4e;;
+    font-size: 1.4rem;
+}
+nav .nav-link:hover{
+    color:#faddc2
+}
+
+
+
+
+
+
+/* herosection */
+.hero{
+    background-color:#f8f7fc;
+}
+.hero-section{
+
+    max-width: 1366px;
+    
+    height: 90vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: o auto;
+padding: 0 5rem;
+}
+
+
+
+
+
+
+.hero-section .content{
+    display: flex;
+    align-items: flex-start;
+    flex-direction:column;
+    justify-content: center;
+}
+.hero-section h4{
+    color: #4e4949;
+    font-size: 1.6rem;
+    margin: 1rem;
+
+}
+
+.hero-section h1{
+    
+    font-size: 2.6rem;
+    margin: 1rem;
+    color: #433831;
+}
+
+.hero-section p {
+    color:  #8a6046;
+
+    font-size: 1.4rem;
+}
+
+.hero-section p span{
+    color: #4e4949;
+   
+}
+
+.btn{
+    width: 10rem;
+    margin-top: 3rem;
+    border-radius:  0.5em;
+    outline:none;
+    border:none;
+    padding: 0.75rem 1.5rem;
+    background-color:#433831;
+    
+}
+
+.btn:hover{
+    background-color:#faddc2;
+    cursor: pointer;
+}
+
+.btn a {
+  text-decoration: none;
+    text-emphasis: none;
+    color: #ffff;
+    font-size: 1.4rem;
+    border: #433831;
+
+}
+/* featurse section */
+section.featurse{
+    padding: 2rem 0;
+    background-color:white;
+
+}
+
+
+section.featurse .featurse-section{
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.featurse-section h4{
+    color:#8a6046;
+    font-size: 1.6rem;
+    margin: 2rem;
+}
+
+.featurse-section .qualities{
+
+display: flex;
+justify-content: space-between;
+}
+
+.featurse-section .qualities .quality{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #faddc2;
+    padding: 2rem;
+    max-width: 17rem;
+    border-radius: 1rem;
+    margin: 1rem;
+  
+}
+
+.featurse-section .qualities .quality:hover{
+    border:2px solid cornflowerblue;
+}
+
+.qualities .quality i{
+    font-size: 2rem;
+    color: #8a6046;
+    margin: 1rem;
+}
+
+.qualities .quality h3{
+    font-size: 1.6rem;
+   color: #433831;
+    margin: 1rem;
+}
+
+.qualities .quality p{
+    font-size: 1.2rem;
+    text-align: center;
+    color: #4e4e4e;
+}
+
+/* ection new */
+.newest-books {
+    padding-top: 5rem;
+    background-color:white;
+}
+
+.newest-books .books-section{
+ 
+  display: flex;
+  flex-direction:column;
+  padding:0 5rem;
+  max-width: 1366px;
+  margin: 0 auto;
+  
+}
+
+.books-section h4{
+    color:#8a6046;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.books-section .books{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: flex-start;
+   
+}
+     
+
+    
+
+
+.books .book{
+
+
+  
+  margin: 2rem 0;
+  max-width: 1366px;
+display: flex;
+
+flex-direction: column;
+  
+  align-items: center;
+ 
+}
+
+.book img{
+    margin-bottom: 1rem;
+}
+
+.book img:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.book h3{
+    font-size: 1.6rem;
+    color: #433831;
+}
+
+.books-section button{
+    width: 15rem;
+    margin-bottom:1rem ;
+    align-self: center;
+    
+}
+
+
+
+
+/* footer */
+footer{
+    background-color: #f8f7fc;
+    height: 30vh;
+    margin-top: 5rem;
+    padding: 2rem 0;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1366px;
+margin: 0 auto;
+padding: 0 5rem;
+}
+
+.footer-section p{
+    font-size: 1.5;
+    margin-bottom: 1rem;
+    color: #433831;
+}
+
+.footer-section .socials{
+    margin-bottom: 1rem;
+    color: #4e4949;
+}
+
+.footer-section .socials i{
+padding: 0 0.5rem;
+font-size: 1.8;
+
+}
+
+.footer-section .socials i:hover{
+    color: #faddc2;
+    cursor: pointer;
+}
+
+
+/* responsive design */
+@media (max-width: 1300px) {
+  * {
+    font-size: 85%;
+  }
+}
+
+@media (max-width: 1175px) {
+  * {
+    font-size: 75%;
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 1000px) {
+  * {
+    text-align: center;
+  }
+  .hero img {
+    display: none;
+  }
+  .hero-section {
+    align-items: center;
+    padding: 2rem 0rem;
+    width: 50%;
+  }
+  .hero .btn {
+    align-self: center;
+  }
+  .hero .content {
+    margin-top: 2rem;
+  }
+  .features-section .qualities {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  section.features .features-section {
+    align-items: center;
+  }
+  .books-section h4 {
+    align-self: center;
+  }
+}
+@media (max-width: 660px) {
+  .hero-section .content h1 {
+    font-size: 2rem;
+  }
+  .books-section {
+    align-items: center;
+  }
+  .books-section .books {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 504px) {
+  .books-section .books {
+    grid-template-columns: 1fr;
+  }
+
+  nav{
+      position: sticky;
+      top: 0;
+      width: 100%;
+  }
+
+  nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  nav .bars-menu {
+    display: block;
+    font-size: 3rem;
+  }
+  nav .nav-items {
+      position: absolute;
+      left: 0;
+      top: 10vh;
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      background-color:#433831;
+      padding: 2rem 0;
+      
+    }
+    nav .nav-items .nav-item {
+      margin: 1rem 0;
+    }
+    nav .nav-items .nav-item a {
+      color: white;
+    }
+    nav .nav-items.active {
+      display: flex;
+    }
+
+ 
+
+  }
